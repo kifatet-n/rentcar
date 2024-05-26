@@ -1,0 +1,150 @@
+.main-detail{
+    display: flex;
+    
+}
+.main-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.detail-image{
+
+    background-color: $primary-500;
+}
+.row-image{
+    display: flex;
+    gap: 10px;
+}
+
+
+.col-detail1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.detail-image{
+    border-radius: 10px;
+    padding: 20px;
+}
+.detail-head{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 32px;
+line-height: 150%;
+letter-spacing: -0.03em;
+color: $primary-0;
+}
+.detail-word{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.02em;
+color: $primary-0;
+}
+.col-detail{
+    background-color: $primary-0;
+    width: 50%;
+    border-radius: 10px;
+}
+.col-image1{
+    border-radius: 10px;
+    background-color: $primary-500;
+
+}
+.col-image2{
+    border-radius: 10px;
+    background-color: $primary-500;
+}
+.col-image3{
+    border-radius: 10px;
+    background-color: $primary-500;
+}
+.detail-card{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+.detail-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.detail-card-word{
+    color: $secondary-300;
+}
+.col1{
+    color: $secondary-300;
+}
+.col3{
+    color: $secondary-300;
+}
+.commit{
+    border-radius: 10px;
+    background: $primary-0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.commit-header{
+    display: flex;
+    gap: 10px;
+}
+.ceo1 {
+    display: flex;
+    gap: 10px;
+}
+.ceo1-name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.commit1{
+    display: flex;
+    justify-content: space-between;
+}
+.ceo1-price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.commit1-body{
+    color: $secondary-400;
+    padding: 0 60px 0 60px;
+}
+.commit2{
+    display: flex;
+    justify-content: space-between;
+}
+.ceo2{
+    display: flex;
+    gap: 10px;
+}
+.ceo2-name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ceo2-price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.commit2-body{
+    color: $secondary-400;
+    padding: 0 60px 0 60px;
+}
+.commit-button{
+    display: flex;
+    justify-content: center;
+}

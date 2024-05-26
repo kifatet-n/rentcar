@@ -1,0 +1,211 @@
+main{
+    background-color: #f6f7f9; 
+}
+.row-main{
+    padding: 20px 0 20px 0;
+    display: flex;
+    gap: 20px;
+    
+}
+    
+
+.col-1{
+    width: 50%;
+    border-radius: 10px;
+    background: $information-500;
+    padding: 20px 20px;
+
+
+
+}
+.col-2{
+    width: 50%;
+    border-radius: 10px;
+    background: $primary-500;
+    padding: 20px 20px;
+}
+.car-image{
+    padding: 20px 50px;
+    
+}
+
+@media screen and (max-width:768px){
+    .row-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.row-filter{
+    display: flex;
+    justify-content: space-between;
+}
+.pick-up{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: $primary-0;
+    width: 45%;
+}
+.drop-off{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: $primary-0;
+    width: 45%;
+
+}
+
+.col-header{
+    display: flex;
+    gap: 10px;
+}
+.pick-up-image{
+    border-radius: 100%;
+    fill: $primary-500;
+}
+.pick-up-word{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: $secondary-500;
+}
+.col-main{
+    display: flex;
+    gap: 30px;
+}
+.word{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    color: $secondary-300;
+}
+.ldt-image{
+    display: flex;
+    gap: 5px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    
+}
+@media screen and (max-width:768px){
+    .row-filter{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+@media screen and (max-width:768px){
+
+
+    
+}
+
+.popular-car-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.name{
+    font-weight: 600;
+    font-size: 16px;
+    color: $secondary-300;
+    
+}
+.button{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: $primary-500; 
+}
+.row {
+    display: flex;
+    
+    
+    
+    
+}
+
+
+.card{
+    border-radius: 10px;
+    background: $primary-0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+   
+}
+.col{
+    width: 25%;
+    
+}
+.col p{
+    color: $secondary-300;
+}
+.col i{
+    color: $secondary-300;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+
+}
+.card-image{
+    padding: 50px 5px;
+
+}
+.body-info{
+    display: flex;
+    justify-content: space-between;
+}
+.info-item{
+    display: flex;
+    gap: 5px;
+    color: $secondary-300;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.rec-row{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  
+}
+.row-2{
+    padding-bottom: 20px;
+}
+.Recomendation-car-name{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.rec-car{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+@media screen and (max-width:768px) {
+    .card-body{
+        display: flex;
+    }
+    .body-info{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
