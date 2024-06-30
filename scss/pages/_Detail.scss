@@ -148,3 +148,11 @@ color: $primary-0;
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width:768px){
+    .col-detail1{
+        width: 100%;
+    }
+    .col-detail{
+        width: 100%;
+    }
+}

@@ -197,17 +197,24 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-items {
-  padding: 30px 0 30px 0;
+  padding: 30px 0px 0px 0px;
   display: flex;
   justify-content: space-between;
 }
 
 .row {
-  display: flex;
   gap: 32px;
 }
 
+.footer-row {
+  padding: 0 100px 100px 0;
+  gap: 90px;
+}
+
 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   list-style: none;
 }
 
@@ -224,6 +231,12 @@ ul {
   font-size: 20px;
   letter-spacing: -0.02em;
   color: var(#1a202c);
+}
+
+.column-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .line {
@@ -245,6 +258,19 @@ ul {
 
 @media screen and (max-width: 768px) {
   .footer-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    background-color: #f6f7f9;
+  }
+  .row {
+    display: flex;
+  }
+  .line {
+    display: none;
+  }
+  .footer-bottom {
     display: flex;
     flex-direction: column;
   }
@@ -278,9 +304,11 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  .row-main {
-    display: flex;
-    flex-wrap: wrap;
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    display: none;
   }
 }
 .row-filter {
@@ -348,6 +376,16 @@ main {
   .row-filter {
     display: flex;
     flex-direction: column;
+  }
+  .pick-up {
+    width: 100%;
+  }
+  .drop-off {
+    width: 100%;
+  }
+  .filter {
+    display: flex;
+    justify-content: center;
   }
 }
 .popular-car-name {
@@ -447,12 +485,23 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+  }
   .card-body {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .body-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 10px;
   }
 }
 .main-left {
@@ -521,6 +570,9 @@ main {
 @media screen and (max-width: 768px) {
   .sidebar {
     display: none;
+  }
+  .col-category {
+    width: 100%;
   }
 }
 .main-detail {
@@ -694,4 +746,20 @@ main {
 .commit-button {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .col-detail1 {
+    width: 100%;
+  }
+  .col-detail {
+    width: 100%;
+  }
+}
+.payment-left {
+  width: 70%;
+}
+
+.titel1 {
+  background-color: white;
 }/*# sourceMappingURL=styles.css.map */
